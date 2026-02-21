@@ -1,7 +1,3 @@
-"""
-Streamlit Web Interface for Mahabharat RAG Chatbot
-A beautiful, user-friendly interface for querying the Bhagavad Gita
-"""
 
 import streamlit as st
 import sys
@@ -231,7 +227,6 @@ def main():
                 'timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             })
             
-            # Display response
             st.markdown("---")
             st.subheader("📝 Query Result")
             
