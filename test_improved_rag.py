@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-"""
-Test Improved RAG Pipeline with Multi-Chapter Comparisons
-Tests: Chunking, Debug Mode, Strict Grounding, Multi-Chapter Retrieval
-"""
+
 
 import sys
 import os
@@ -16,7 +12,7 @@ print("="*80)
 print("Features: k=8 retrieval, chunking (3 verses), debug mode, strict grounding")
 print("="*80 + "\n")
 
-# Initialize chatbot (will create new vector store with chunking)
+
 print("Initializing chatbot with improved configuration...")
 chatbot = MahabharatChatbot()
 
