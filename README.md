@@ -255,29 +255,9 @@ The system prevents hallucinations through:
 - **Structured Responses**: Returns exact data from the knowledge base
 - **Confidence Scores**: Provides transparency about match quality
 
-## API Usage (Programmatic)
 
-You can also use the chatbot programmatically:
 
-```python
-from main import MahabharatChatbot
 
-# Initialize chatbot
-chatbot = MahabharatChatbot()
-
-# Query
-response = chatbot.query("What is dharma?")
-print(response)
-
-# Get statistics
-stats = chatbot.get_stats()
-print(stats)
-```
-
-## Troubleshooting
-
-### Issue: "JSON file not found"
-**Solution**: Ensure `mahabharat.json` exists in the `data/` directory
 
 ### Issue: Slow embeddings creation
 **Solution**: 
@@ -314,15 +294,4 @@ This project is open-source and available for educational and commercial use.
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
 
-## Future Enhancements
 
-- [ ] Web UI using Streamlit or Gradio
-- [ ] REST API with FastAPI
-- [ ] Multiple language support
-- [ ] Advanced filtering (by chapter, book, character)
-- [ ] Query expansion for better retrieval
-- [ ] Hybrid search (keyword + semantic)
-
-## Support
-
-For questions or issues, please open an issue on the project repository.
