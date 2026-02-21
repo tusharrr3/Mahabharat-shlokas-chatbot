@@ -1,7 +1,4 @@
-"""
-Main entry point for Mahabharat RAG Chatbot
-Provides CLI interface for querying the chatbot
-"""
+
 
 import os
 import sys
