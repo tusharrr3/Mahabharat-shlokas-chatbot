@@ -1,7 +1,7 @@
-"""Test exact verse lookup with chunked documents"""
+
 
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyDuXWI8DGWo9ejCO8xt0DaDGHAU_LSgbgw"
+os.environ["GEMINI_API_KEY"] = ""
 
 import sys
 sys.path.insert(0, "src")
